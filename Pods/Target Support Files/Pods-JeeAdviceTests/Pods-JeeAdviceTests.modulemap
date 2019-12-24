@@ -1,0 +1,6 @@
+framework module Pods_JeeAdviceTests {
+  umbrella header "Pods-JeeAdviceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

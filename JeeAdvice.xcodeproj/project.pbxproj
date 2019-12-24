@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3B2380400443C0DCDFE660 /* Pods_JeeAdvice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D4C8F68BB8D61EC8D26932 /* Pods_JeeAdvice.framework */; };
+		360DF28D2370772600C82104 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 360DF28C2370772600C82104 /* GoogleService-Info.plist */; };
+		360DF28F23707C2E00C82104 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF28E23707C2E00C82104 /* HomeViewController.swift */; };
+		360DF29123707E3F00C82104 /* SIemailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF29023707E3F00C82104 /* SIemailViewController.swift */; };
+		360DF29323707E4900C82104 /* SIgnInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF29223707E4900C82104 /* SIgnInViewController.swift */; };
+		360DF2952370845400C82104 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF2942370845400C82104 /* FirebaseAuthManager.swift */; };
+		360DF29B237089B300C82104 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF29A237089B300C82104 /* SearchViewController.swift */; };
+		360DF29D23708CEE00C82104 /* getstartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF29C23708CEE00C82104 /* getstartedViewController.swift */; };
+		360DF2A323713FF300C82104 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF2A223713FF300C82104 /* PDFViewController.swift */; };
+		360DF2A5237149FD00C82104 /* MyCoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF2A4237149FD00C82104 /* MyCoursesTableViewCell.swift */; };
+		360DF2A723714E7A00C82104 /* courseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF2A623714E7A00C82104 /* courseInfoViewController.swift */; };
+		360DF2AA237155CE00C82104 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF2A9237155CE00C82104 /* SearchTableViewCell.swift */; };
+		360DF2AC23727B7F00C82104 /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DF2AB23727B7F00C82104 /* DetailsCollectionViewCell.swift */; };
 		363FFF3A237075D50049288A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FFF39237075D50049288A /* AppDelegate.swift */; };
-		363FFF3C237075D50049288A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FFF3B237075D50049288A /* SceneDelegate.swift */; };
 		363FFF3E237075D50049288A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FFF3D237075D50049288A /* ViewController.swift */; };
 		363FFF41237075D50049288A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363FFF3F237075D50049288A /* Main.storyboard */; };
 		363FFF43237075D70049288A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363FFF42237075D70049288A /* Assets.xcassets */; };
 		363FFF46237075D70049288A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363FFF44237075D70049288A /* LaunchScreen.storyboard */; };
 		363FFF51237075D70049288A /* JeeAdviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FFF50237075D70049288A /* JeeAdviceTests.swift */; };
 		363FFF5C237075D70049288A /* JeeAdviceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FFF5B237075D70049288A /* JeeAdviceUITests.swift */; };
+		41C1CBCAACBC3C8197F042E1 /* Pods_JeeAdviceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BA0AFCEFB11278CA0BDC79 /* Pods_JeeAdviceTests.framework */; };
+		44D35240134098425798C67B /* Pods_JeeAdvice_JeeAdviceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414D8CF61F28C2F02A3A68D2 /* Pods_JeeAdvice_JeeAdviceUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		363FFF36237075D50049288A /* JeeAdvice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeeAdvice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BA0AFCEFB11278CA0BDC79 /* Pods_JeeAdviceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JeeAdviceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D4C8F68BB8D61EC8D26932 /* Pods_JeeAdvice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JeeAdvice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		226CDAE38399DDDC22F9CD25 /* Pods-JeeAdvice-JeeAdviceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeeAdvice-JeeAdviceUITests.debug.xcconfig"; path = "Target Support Files/Pods-JeeAdvice-JeeAdviceUITests/Pods-JeeAdvice-JeeAdviceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		360DF28C2370772600C82104 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		360DF28E23707C2E00C82104 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		360DF29023707E3F00C82104 /* SIemailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIemailViewController.swift; sourceTree = "<group>"; };
+		360DF29223707E4900C82104 /* SIgnInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnInViewController.swift; sourceTree = "<group>"; };
+		360DF2942370845400C82104 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		360DF29A237089B300C82104 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		360DF29C23708CEE00C82104 /* getstartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getstartedViewController.swift; sourceTree = "<group>"; };
+		360DF2A123713ED100C82104 /* Stats.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Stats.pdf; sourceTree = "<group>"; };
+		360DF2A223713FF300C82104 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		360DF2A4237149FD00C82104 /* MyCoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoursesTableViewCell.swift; sourceTree = "<group>"; };
+		360DF2A623714E7A00C82104 /* courseInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseInfoViewController.swift; sourceTree = "<group>"; };
+		360DF2A9237155CE00C82104 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		360DF2AB23727B7F00C82104 /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		363FFF36237075D50049288A /* JeeAcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeeAcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		363FFF39237075D50049288A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		363FFF3B237075D50049288A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		363FFF3D237075D50049288A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		363FFF40237075D50049288A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		363FFF42237075D70049288A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +78,12 @@
 		363FFF57237075D70049288A /* JeeAdviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeeAdviceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		363FFF5B237075D70049288A /* JeeAdviceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeeAdviceUITests.swift; sourceTree = "<group>"; };
 		363FFF5D237075D70049288A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414D8CF61F28C2F02A3A68D2 /* Pods_JeeAdvice_JeeAdviceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JeeAdvice_JeeAdviceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607833C47333B89CD73F5762 /* Pods-JeeAdviceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeeAdviceTests.debug.xcconfig"; path = "Target Support Files/Pods-JeeAdviceTests/Pods-JeeAdviceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		620447563ACA0084734A79D3 /* Pods-JeeAdvice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeeAdvice.release.xcconfig"; path = "Target Support Files/Pods-JeeAdvice/Pods-JeeAdvice.release.xcconfig"; sourceTree = "<group>"; };
+		7E813FA9256E7EDF51482047 /* Pods-JeeAdvice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeeAdvice.debug.xcconfig"; path = "Target Support Files/Pods-JeeAdvice/Pods-JeeAdvice.debug.xcconfig"; sourceTree = "<group>"; };
+		A95B28F6535D40E5485D0952 /* Pods-JeeAdvice-JeeAdviceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeeAdvice-JeeAdviceUITests.release.xcconfig"; path = "Target Support Files/Pods-JeeAdvice-JeeAdviceUITests/Pods-JeeAdvice-JeeAdviceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E46AB66FDD98D0B7BAD1FCD4 /* Pods-JeeAdviceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeeAdviceTests.release.xcconfig"; path = "Target Support Files/Pods-JeeAdviceTests/Pods-JeeAdviceTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3B2380400443C0DCDFE660 /* Pods_JeeAdvice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C1CBCAACBC3C8197F042E1 /* Pods_JeeAdviceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +107,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D35240134098425798C67B /* Pods_JeeAdvice_JeeAdviceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3294742825151B7E302BC636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D4C8F68BB8D61EC8D26932 /* Pods_JeeAdvice.framework */,
+				414D8CF61F28C2F02A3A68D2 /* Pods_JeeAdvice_JeeAdviceUITests.framework */,
+				04BA0AFCEFB11278CA0BDC79 /* Pods_JeeAdviceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		360DF2A023713ECE00C82104 /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				360DF2A123713ED100C82104 /* Stats.pdf */,
+			);
+			path = PDFs;
+			sourceTree = "<group>";
+		};
+		360DF2A823714F8100C82104 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				360DF29023707E3F00C82104 /* SIemailViewController.swift */,
+				360DF29223707E4900C82104 /* SIgnInViewController.swift */,
+				360DF2942370845400C82104 /* FirebaseAuthManager.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		363FFF2D237075D50049288A = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +149,15 @@
 				363FFF4F237075D70049288A /* JeeAdviceTests */,
 				363FFF5A237075D70049288A /* JeeAdviceUITests */,
 				363FFF37237075D50049288A /* Products */,
+				74872BB9BA86932D529C7C59 /* Pods */,
+				3294742825151B7E302BC636 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		363FFF37237075D50049288A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				363FFF36237075D50049288A /* JeeAdvice.app */,
+				363FFF36237075D50049288A /* JeeAcademy.app */,
 				363FFF4C237075D70049288A /* JeeAdviceTests.xctest */,
 				363FFF57237075D70049288A /* JeeAdviceUITests.xctest */,
 			);
@@ -99,12 +167,22 @@
 		363FFF38237075D50049288A /* JeeAdvice */ = {
 			isa = PBXGroup;
 			children = (
+				360DF2A823714F8100C82104 /* Authentication */,
+				360DF2A023713ECE00C82104 /* PDFs */,
 				363FFF39237075D50049288A /* AppDelegate.swift */,
-				363FFF3B237075D50049288A /* SceneDelegate.swift */,
 				363FFF3D237075D50049288A /* ViewController.swift */,
+				360DF29C23708CEE00C82104 /* getstartedViewController.swift */,
+				360DF29A237089B300C82104 /* SearchViewController.swift */,
 				363FFF3F237075D50049288A /* Main.storyboard */,
+				360DF28E23707C2E00C82104 /* HomeViewController.swift */,
+				360DF2A623714E7A00C82104 /* courseInfoViewController.swift */,
+				360DF2A223713FF300C82104 /* PDFViewController.swift */,
+				360DF2A4237149FD00C82104 /* MyCoursesTableViewCell.swift */,
+				360DF2AB23727B7F00C82104 /* DetailsCollectionViewCell.swift */,
+				360DF2A9237155CE00C82104 /* SearchTableViewCell.swift */,
 				363FFF42237075D70049288A /* Assets.xcassets */,
 				363FFF44237075D70049288A /* LaunchScreen.storyboard */,
+				360DF28C2370772600C82104 /* GoogleService-Info.plist */,
 				363FFF47237075D70049288A /* Info.plist */,
 			);
 			path = JeeAdvice;
@@ -128,6 +206,19 @@
 			path = JeeAdviceUITests;
 			sourceTree = "<group>";
 		};
+		74872BB9BA86932D529C7C59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E813FA9256E7EDF51482047 /* Pods-JeeAdvice.debug.xcconfig */,
+				620447563ACA0084734A79D3 /* Pods-JeeAdvice.release.xcconfig */,
+				226CDAE38399DDDC22F9CD25 /* Pods-JeeAdvice-JeeAdviceUITests.debug.xcconfig */,
+				A95B28F6535D40E5485D0952 /* Pods-JeeAdvice-JeeAdviceUITests.release.xcconfig */,
+				607833C47333B89CD73F5762 /* Pods-JeeAdviceTests.debug.xcconfig */,
+				E46AB66FDD98D0B7BAD1FCD4 /* Pods-JeeAdviceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 363FFF60237075D70049288A /* Build configuration list for PBXNativeTarget "JeeAdvice" */;
 			buildPhases = (
+				4A07115BDD50B6BFFDD609AE /* [CP] Check Pods Manifest.lock */,
 				363FFF32237075D50049288A /* Sources */,
 				363FFF33237075D50049288A /* Frameworks */,
 				363FFF34237075D50049288A /* Resources */,
+				289DF3A06F1DC69C84FE89CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,13 +238,14 @@
 			);
 			name = JeeAdvice;
 			productName = JeeAdvice;
-			productReference = 363FFF36237075D50049288A /* JeeAdvice.app */;
+			productReference = 363FFF36237075D50049288A /* JeeAcademy.app */;
 			productType = "com.apple.product-type.application";
 		};
 		363FFF4B237075D70049288A /* JeeAdviceTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 363FFF63237075D70049288A /* Build configuration list for PBXNativeTarget "JeeAdviceTests" */;
 			buildPhases = (
+				39FBE64B895FB37F8ED7A7B8 /* [CP] Check Pods Manifest.lock */,
 				363FFF48237075D70049288A /* Sources */,
 				363FFF49237075D70049288A /* Frameworks */,
 				363FFF4A237075D70049288A /* Resources */,
@@ -170,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 363FFF66237075D70049288A /* Build configuration list for PBXNativeTarget "JeeAdviceUITests" */;
 			buildPhases = (
+				152377C4F39C3A5BAD36F24D /* [CP] Check Pods Manifest.lock */,
 				363FFF53237075D70049288A /* Sources */,
 				363FFF54237075D70049288A /* Frameworks */,
 				363FFF55237075D70049288A /* Resources */,
+				986EB987DB075F7CE0C8E9E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				363FFF46237075D70049288A /* LaunchScreen.storyboard in Resources */,
+				360DF28D2370772600C82104 /* GoogleService-Info.plist in Resources */,
 				363FFF43237075D70049288A /* Assets.xcassets in Resources */,
 				363FFF41237075D50049288A /* Main.storyboard in Resources */,
 			);
@@ -254,14 +351,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		152377C4F39C3A5BAD36F24D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JeeAdvice-JeeAdviceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		289DF3A06F1DC69C84FE89CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JeeAdvice/Pods-JeeAdvice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JeeAdvice/Pods-JeeAdvice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JeeAdvice/Pods-JeeAdvice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39FBE64B895FB37F8ED7A7B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JeeAdviceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A07115BDD50B6BFFDD609AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JeeAdvice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		986EB987DB075F7CE0C8E9E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JeeAdvice-JeeAdviceUITests/Pods-JeeAdvice-JeeAdviceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JeeAdvice-JeeAdviceUITests/Pods-JeeAdvice-JeeAdviceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JeeAdvice-JeeAdviceUITests/Pods-JeeAdvice-JeeAdviceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		363FFF32237075D50049288A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360DF2A5237149FD00C82104 /* MyCoursesTableViewCell.swift in Sources */,
+				360DF2A323713FF300C82104 /* PDFViewController.swift in Sources */,
+				360DF29323707E4900C82104 /* SIgnInViewController.swift in Sources */,
+				360DF29B237089B300C82104 /* SearchViewController.swift in Sources */,
 				363FFF3E237075D50049288A /* ViewController.swift in Sources */,
+				360DF2952370845400C82104 /* FirebaseAuthManager.swift in Sources */,
+				360DF29123707E3F00C82104 /* SIemailViewController.swift in Sources */,
 				363FFF3A237075D50049288A /* AppDelegate.swift in Sources */,
-				363FFF3C237075D50049288A /* SceneDelegate.swift in Sources */,
+				360DF28F23707C2E00C82104 /* HomeViewController.swift in Sources */,
+				360DF2AC23727B7F00C82104 /* DetailsCollectionViewCell.swift in Sources */,
+				360DF2AA237155CE00C82104 /* SearchTableViewCell.swift in Sources */,
+				360DF2A723714E7A00C82104 /* courseInfoViewController.swift in Sources */,
+				360DF29D23708CEE00C82104 /* getstartedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,17 +642,19 @@
 		};
 		363FFF61237075D70049288A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E813FA9256E7EDF51482047 /* Pods-JeeAdvice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F58MNCFC2N;
+				DEVELOPMENT_TEAM = JL7UZ93S3L;
 				INFOPLIST_FILE = JeeAdvice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.azzuno.JeeAdvice;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeeAdvice;
+				PRODUCT_NAME = JeeAcademy;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,17 +662,19 @@
 		};
 		363FFF62237075D70049288A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620447563ACA0084734A79D3 /* Pods-JeeAdvice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F58MNCFC2N;
+				DEVELOPMENT_TEAM = JL7UZ93S3L;
 				INFOPLIST_FILE = JeeAdvice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.azzuno.JeeAdvice;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeeAdvice;
+				PRODUCT_NAME = JeeAcademy;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +682,7 @@
 		};
 		363FFF64237075D70049288A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607833C47333B89CD73F5762 /* Pods-JeeAdviceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +705,7 @@
 		};
 		363FFF65237075D70049288A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46AB66FDD98D0B7BAD1FCD4 /* Pods-JeeAdviceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +728,7 @@
 		};
 		363FFF67237075D70049288A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226CDAE38399DDDC22F9CD25 /* Pods-JeeAdvice-JeeAdviceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +749,7 @@
 		};
 		363FFF68237075D70049288A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A95B28F6535D40E5485D0952 /* Pods-JeeAdvice-JeeAdviceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
